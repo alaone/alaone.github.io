@@ -1,75 +1,21 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title></title>
-		<link  rel="stylesheet" href="漩涡鸣人.css">
-	</head>
-	<body>
-		<div class="first">
-			<div class="photo"><img src="漩涡鸣人/naruto-10.png"></div>
-			<div class="firstone"><p>漩涡<span style="color:#616549 ;">鸣人</span></p></div>
-			<div style="float: right;margin-top: -70px ;margin-right:10px ;"><p style="text-indent: 3em;">说到做到,</p><p>这就是我的忍道!</p></div>
-		</div><!-- 漩涡名人，灰色，有图 -->
-		<div class="senced" title="老师妖尾也挺好看的,你可看一下">
-			<p>首页</p>
-			<p>鸣人介绍</p>
-			<p>鸣人日记</p>
-			<p>鸣人心情</p>	
-		</div><!-- 褐色，四个div块有字，居右，靠右有字 -->
-		<div class="loop">
-			<ul >
-			<li><img src="漩涡鸣人/微信图片_20210107225106.jpg" style="width: 750px;height: 350px;"></li>
-			<li><img src="漩涡鸣人/微信图片_20210107225112.jpg" style="width: 750px;height: 350px;"></li>	
-			<li><img src="漩涡鸣人/eac4b74543a98226a44e99078782b9014a90eb07.jpg" style="width: 750px;height: 350px;"></li>
-			<li><img src="漩涡鸣人/微信图片_20210107225106.jpg" style="width: 750px;height: 350px;"></li>
-			</ul>
-		</div>
-		<div class="index">
-			<img src="漩涡鸣人/u=1509754882,1702427247&fm=26&gp=0.jpg" height="200px">
-			
-			<p >鸣人介绍</p>
-			<p>漩涡鸣人，日本漫画家岸本齐史作品《火影忍者》中男主角。身为第三任九尾人柱力因阻止佩恩袭击木叶而成为英雄，并且在第四次忍界大战中发挥着极为重要的作用。最后成为第七代火影。</p>
-			
-		</div >
-		<div class="people"><h1>人物关系</h1>
-		<p>妻子：日向雏田</p>
-		<p>儿子：漩涡博人</p>
-		<p>女儿：漩涡向日葵</p>
-		<p>父亲：波风水门</p>
-		<p>母亲：漩涡玖辛奈</p>
-		<p>好友：宇智波佐助</p>
-		<p>好友：春野樱</p>
-		
-		</div>
-		<div class="index">
-			<img src="漩涡鸣人/u=3973806897,1378130446&fm=26&gp=0.jpg"width="200px"height="200px">
-			
-			<p >鸣人经历</p>
-			<p>为实现梦想，和守护伙伴们的羁绊，鸣人不断修炼变强，在追求梦想的过程中不断突破自我，贯彻了自身的忍道，获得人们的认可。最后成为火影（七代目火影）</p>
-			
-		</div>
-		<div class="index">
-			<img src="漩涡鸣人/f636afc379310a55ccd092bdb54543a983261086.jpg" width="200px"height="200px">
-			
-			<p >关于名字</p>
-			<p>在漫画中则是来自自来也写的《自来也豪杰物语》的主人公名字，因为其书中主人公拥有诸多美好向上的精神，鸣人父母希望鸣人将来可以成为那样的永不言弃人</p>
-			
-		</div>
-		<div class="peoplea"><h1>忍术</h1>
-		<p>变身术&替身术</p>
-		<p>色诱·逆后宫之术</p>
-		<p>多重影分身之术</p>
-		<p>土遁·土流壁</p>
-		<p>风遁·螺旋丸</p>
-		<p>螺旋吸丸</p>
-		<p>风遁·螺旋手里剑</p>
-		<p>八卦封印·解</p>
-		</div>
-		<div class="gray" title="老师好,我叫万志涛">
-			<p>鸣人出品</p>
-		</div>
-		
-		
-	</body>
+<head>
+<title>js html5渲染的3D玫瑰花（程序员的情人节礼物）</title>
+<meta charset="utf-8">
+</head>
+<body>
+<canvas id="c" height="500" width="500"></canvas>
+<script>
+    var b = document.body;
+    var c = document.getElementsByTagName('canvas')[0];
+    var a = c.getContext('2d');
+    document.body.clientWidth;
+</script>
+<script>
+// start of submission //
+with(m=Math)C=cos,S=sin,P=pow,R=random;c.width=c.height=f=500;h=-250;function p(a,b,c){if(c>60)return[S(a*7)*(13+5/(.2+P(b*4,4)))-S(b)*50,b*f+50,625+C(a*7)*(13+5/(.2+P(b*4,4)))+b*400,a*1-b/2,a];A=a*2-1;B=b*2-1;if(A*A+B*B<1){if(c>37){n=(j=c&1)?6:4;o=.5/(a+.01)+C(b*125)*3-a*300;w=b*h;return[o*C(n)+w*S(n)+j*610-390,o*S(n)-w*C(n)+550-j*350,1180+C(B+A)*99-j*300,.4-a*.1+P(1-B*B,-h*6)*.15-a*b*.4+C(a+b)/5+P(C((o*(a+1)+(B>0?w:-w))/25),30)*.1*(1-B*B),o/1e3+.7-o*w*3e-6]}if(c>32){c=c*1.16-.15;o=a*45-20;w=b*b*h;z=o*S(c)+w*C(c)+620;return[o*C(c)-w*S(c),28+C(B*.5)*99-b*b*b*60-z/2-h,z,(b*b*.3+P((1-(A*A)),7)*.15+.3)*b,b*.7]}o=A*(2-b)*(80-c*2);w=99-C(A)*120-C(b)*(-h-c*4.9)+C(P(1-b,7))*50+c*2;z=o*S(c)+w*C(c)+700;return[o*C(c)-w*S(c),B*99-C(P(b, 7))*50-c/3-z/1.35+450,z,(1-b/1.2)*.9+a*.1, P((1-b),20)/4+.05]}}setInterval('for(i=0;i<1e4;i++)if(s=p(R(),R(),i%46/.74)){z=s[2];x=~~(s[0]*f/z-h);y=~~(s[1]*f/z-h);if(!m[q=y*f+x]|m[q]>z)m[q]=z,a.fillStyle="rgb("+~(s[3]*h)+","+~(s[4]*h)+","+~(s[3]*s[3]*-80)+")",a.fillRect(x,y,1,1)}',0)
+// end of submission //
+</script>
+</body>
 </html>
